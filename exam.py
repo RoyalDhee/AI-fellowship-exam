@@ -11,7 +11,9 @@ def multiply(a, b):
 
 def division(a, b):
     if b != 0:
-        return (a / b) 
+        return (a / b)
+    else:
+        return ("Cannot divide by zero")
 
 
 num1 = int(input(f"Enter first number: "))
@@ -40,40 +42,40 @@ while True:
 
 
 
-# # Question 2
-# while True:
-#     user_input = input("Enter a number (or type 'exit' to quit): ")
-#     if user_input == "exit":
-#         print("Goodbye!")
-#         break 
+# Question 2
+while True:
+    user_input = input("Enter a number (or type 'exit' to quit): ")
+    if user_input == "exit":
+        print("Goodbye!")
+        break 
     
-#     num = int(user_input)  
+    num = int(user_input)  
     
-#     if num % 2 == 0:
-#         print("The number is even")
-#     else:
-#         print("The number is odd")
+    if num % 2 == 0:
+        print("The number is even")
+    else:
+        print("The number is odd")
 
 
 
 
 
 
-# # Question 3
-# while True:
-#     age = input("Enter your age (or type exit to quit): ")
-#     if age == 'exit': 
-#         print("Goodbye!")
-#         break
+# Question 3
+while True:
+    age = input("Enter your age (or type exit to quit): ")
+    if age == 'exit': 
+        print("Goodbye!")
+        break
     
-#     try:
-#         age_int = int(age)
-#         if age_int >= 18:
-#             print("You can vote")
-#         else:
-#             print("You cannot vote")
-#     except ValueError:
-#         print("Invalid input")
+    try:
+        age_int = int(age)
+        if age_int >= 18:
+            print("You can vote")
+        else:
+            print("You cannot vote")
+    except ValueError:
+        print("Invalid input")
 
 
 
